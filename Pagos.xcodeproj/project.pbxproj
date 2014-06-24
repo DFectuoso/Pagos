@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B65A9C1D195A2B9400517E69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A9C1C195A2B9400517E69 /* AppDelegate.swift */; };
+		B65A9C1F195A2B9400517E69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A9C1E195A2B9400517E69 /* ViewController.swift */; };
+		B65A9C22195A2B9400517E69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65A9C20195A2B9400517E69 /* Main.storyboard */; };
+		B65A9C24195A2B9400517E69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65A9C23195A2B9400517E69 /* Images.xcassets */; };
+		B65A9C30195A2B9400517E69 /* PagosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A9C2F195A2B9400517E69 /* PagosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B65A9C2A195A2B9400517E69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B65A9C0F195A2B9400517E69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B65A9C16195A2B9400517E69;
+			remoteInfo = Pagos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B65A9C17195A2B9400517E69 /* Pagos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pagos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65A9C1B195A2B9400517E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65A9C1C195A2B9400517E69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B65A9C1E195A2B9400517E69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B65A9C21195A2B9400517E69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B65A9C23195A2B9400517E69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B65A9C29195A2B9400517E69 /* PagosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65A9C2E195A2B9400517E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65A9C2F195A2B9400517E69 /* PagosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B65A9C14195A2B9400517E69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65A9C26195A2B9400517E69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B65A9C0E195A2B9400517E69 = {
+			isa = PBXGroup;
+			children = (
+				B65A9C19195A2B9400517E69 /* Pagos */,
+				B65A9C2C195A2B9400517E69 /* PagosTests */,
+				B65A9C18195A2B9400517E69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B65A9C18195A2B9400517E69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B65A9C17195A2B9400517E69 /* Pagos.app */,
+				B65A9C29195A2B9400517E69 /* PagosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B65A9C19195A2B9400517E69 /* Pagos */ = {
+			isa = PBXGroup;
+			children = (
+				B65A9C1C195A2B9400517E69 /* AppDelegate.swift */,
+				B65A9C1E195A2B9400517E69 /* ViewController.swift */,
+				B65A9C20195A2B9400517E69 /* Main.storyboard */,
+				B65A9C23195A2B9400517E69 /* Images.xcassets */,
+				B65A9C1A195A2B9400517E69 /* Supporting Files */,
+			);
+			path = Pagos;
+			sourceTree = "<group>";
+		};
+		B65A9C1A195A2B9400517E69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B65A9C1B195A2B9400517E69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B65A9C2C195A2B9400517E69 /* PagosTests */ = {
+			isa = PBXGroup;
+			children = (
+				B65A9C2F195A2B9400517E69 /* PagosTests.swift */,
+				B65A9C2D195A2B9400517E69 /* Supporting Files */,
+			);
+			path = PagosTests;
+			sourceTree = "<group>";
+		};
+		B65A9C2D195A2B9400517E69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B65A9C2E195A2B9400517E69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B65A9C16195A2B9400517E69 /* Pagos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65A9C33195A2B9400517E69 /* Build configuration list for PBXNativeTarget "Pagos" */;
+			buildPhases = (
+				B65A9C13195A2B9400517E69 /* Sources */,
+				B65A9C14195A2B9400517E69 /* Frameworks */,
+				B65A9C15195A2B9400517E69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pagos;
+			productName = Pagos;
+			productReference = B65A9C17195A2B9400517E69 /* Pagos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B65A9C28195A2B9400517E69 /* PagosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65A9C36195A2B9400517E69 /* Build configuration list for PBXNativeTarget "PagosTests" */;
+			buildPhases = (
+				B65A9C25195A2B9400517E69 /* Sources */,
+				B65A9C26195A2B9400517E69 /* Frameworks */,
+				B65A9C27195A2B9400517E69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65A9C2B195A2B9400517E69 /* PBXTargetDependency */,
+			);
+			name = PagosTests;
+			productName = PagosTests;
+			productReference = B65A9C29195A2B9400517E69 /* PagosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B65A9C0F195A2B9400517E69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Dfectuoso;
+				TargetAttributes = {
+					B65A9C16195A2B9400517E69 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B65A9C28195A2B9400517E69 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B65A9C16195A2B9400517E69;
+					};
+				};
+			};
+			buildConfigurationList = B65A9C12195A2B9400517E69 /* Build configuration list for PBXProject "Pagos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B65A9C0E195A2B9400517E69;
+			productRefGroup = B65A9C18195A2B9400517E69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B65A9C16195A2B9400517E69 /* Pagos */,
+				B65A9C28195A2B9400517E69 /* PagosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B65A9C15195A2B9400517E69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65A9C22195A2B9400517E69 /* Main.storyboard in Resources */,
+				B65A9C24195A2B9400517E69 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65A9C27195A2B9400517E69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B65A9C13195A2B9400517E69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65A9C1F195A2B9400517E69 /* ViewController.swift in Sources */,
+				B65A9C1D195A2B9400517E69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65A9C25195A2B9400517E69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65A9C30195A2B9400517E69 /* PagosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B65A9C2B195A2B9400517E69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B65A9C16195A2B9400517E69 /* Pagos */;
+			targetProxy = B65A9C2A195A2B9400517E69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B65A9C20195A2B9400517E69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65A9C21195A2B9400517E69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B65A9C31195A2B9400517E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B65A9C32195A2B9400517E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B65A9C34195A2B9400517E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Pagos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B65A9C35195A2B9400517E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Pagos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B65A9C37195A2B9400517E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pagos.app/Pagos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PagosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		B65A9C38195A2B9400517E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pagos.app/Pagos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PagosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B65A9C12195A2B9400517E69 /* Build configuration list for PBXProject "Pagos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65A9C31195A2B9400517E69 /* Debug */,
+				B65A9C32195A2B9400517E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65A9C33195A2B9400517E69 /* Build configuration list for PBXNativeTarget "Pagos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65A9C34195A2B9400517E69 /* Debug */,
+				B65A9C35195A2B9400517E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B65A9C36195A2B9400517E69 /* Build configuration list for PBXNativeTarget "PagosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65A9C37195A2B9400517E69 /* Debug */,
+				B65A9C38195A2B9400517E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B65A9C0F195A2B9400517E69 /* Project object */;
+}
