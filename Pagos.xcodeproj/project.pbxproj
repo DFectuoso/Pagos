@@ -12,6 +12,11 @@
 		B65A9C22195A2B9400517E69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65A9C20195A2B9400517E69 /* Main.storyboard */; };
 		B65A9C24195A2B9400517E69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65A9C23195A2B9400517E69 /* Images.xcassets */; };
 		B65A9C30195A2B9400517E69 /* PagosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A9C2F195A2B9400517E69 /* PagosTests.swift */; };
+		B65A9C3A195A2BC000517E69 /* Conekta.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A9C39195A2BC000517E69 /* Conekta.swift */; };
+		B65A9C3C195A2BCA00517E69 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A9C3B195A2BCA00517E69 /* Token.swift */; };
+		B65A9C3E195A2BD000517E69 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A9C3D195A2BD000517E69 /* Client.swift */; };
+		B65A9C40195A2BD900517E69 /* PaymentServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A9C3F195A2BD900517E69 /* PaymentServer.swift */; };
+		B65A9C42195A2FFF00517E69 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A9C41195A2FFF00517E69 /* Payment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 		B65A9C29195A2B9400517E69 /* PagosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65A9C2E195A2B9400517E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B65A9C2F195A2B9400517E69 /* PagosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosTests.swift; sourceTree = "<group>"; };
+		B65A9C39195A2BC000517E69 /* Conekta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conekta.swift; sourceTree = "<group>"; };
+		B65A9C3B195A2BCA00517E69 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		B65A9C3D195A2BD000517E69 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		B65A9C3F195A2BD900517E69 /* PaymentServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentServer.swift; sourceTree = "<group>"; };
+		B65A9C41195A2FFF00517E69 /* Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 		B65A9C0E195A2B9400517E69 = {
 			isa = PBXGroup;
 			children = (
+				B65A9C41195A2FFF00517E69 /* Payment.swift */,
+				B65A9C3F195A2BD900517E69 /* PaymentServer.swift */,
+				B65A9C3D195A2BD000517E69 /* Client.swift */,
+				B65A9C3B195A2BCA00517E69 /* Token.swift */,
+				B65A9C39195A2BC000517E69 /* Conekta.swift */,
 				B65A9C19195A2B9400517E69 /* Pagos */,
 				B65A9C2C195A2B9400517E69 /* PagosTests */,
 				B65A9C18195A2B9400517E69 /* Products */,
@@ -210,6 +225,11 @@
 			files = (
 				B65A9C1F195A2B9400517E69 /* ViewController.swift in Sources */,
 				B65A9C1D195A2B9400517E69 /* AppDelegate.swift in Sources */,
+				B65A9C42195A2FFF00517E69 /* Payment.swift in Sources */,
+				B65A9C3A195A2BC000517E69 /* Conekta.swift in Sources */,
+				B65A9C3E195A2BD000517E69 /* Client.swift in Sources */,
+				B65A9C3C195A2BCA00517E69 /* Token.swift in Sources */,
+				B65A9C40195A2BD900517E69 /* PaymentServer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
